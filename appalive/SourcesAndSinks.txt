@@ -1,0 +1,38 @@
+% intent
+%<android.content.Intent: void <init>(android.content.Context,java.lang.Class)> -> _SOURCE_
+%<android.content.Intent: android.content.Intent setClass(android.content.Context,java.lang.Class)> -> _SOURCE_
+%<android.content.Intent: android.content.Intent setClassName(java.lang.String,java.lang.String)> -> _SOURCE_
+%<android.content.Intent: android.content.Intent setClassName(android.content.Context,java.lang.String)> -> _SOURCE_
+%<android.content.ComponentName: void <init>(java.lang.String,java.lang.String) -> _SOURCE_
+%<android.content.ComponentName: void <init>(android.content.Context,java.lang.String) -> _SOURCE_
+%<android.content.ComponentName: void <init>(android.content.Context,java.lang.Class) -> _SOURCE_
+
+% activity
+%<android.content.Context: void startActivity(android.content.Intent)> -> _SINK_
+%<android.content.ContextWrapper: void startActivity(android.content.Intent)> -> _SINK_
+%<android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)> -> _SINK_
+
+% service
+%<android.content.Context: android.content.ComponentName startService(android.content.Intent)> -> _SINK_
+%<android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)> -> _SINK_
+%<android.app.PendingIntent: android.app.PendingIntent getService(android.content.Context,int,android.content.Intent,int)> -> _SINK_
+%<android.app.PendingIntent: android.app.PendingIntent getForegroundService(android.content.Context,int,android.content.Intent,int)> -> _SINK_
+
+% receiver
+%<android.content.Context: void sendBroadcast(Intent)> -> _SINK_
+%<android.content.ContextWrapper: void sendBroadcast(Intent)> -> _SINK_
+%<android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)> -> _SINK_
+
+% URI
+%<android.net.Uri: android.net.Uri parse(java.lang.String)> -> _SOURCE_
+
+% content-provider
+%<android.content.ContentResolver: android.content.ContentProviderClient acquireContentProviderClient(android.net.Uri)> -> _SINK_
+%<android.content.ContentResolver: android.content.ContentProviderClient acquireUnstableContentProviderClient(android.net.Uri)> -> _SINK_
+
+<android.content.ContentResolver: android.content.ContentProviderClient acquireContentProviderClient(java.lang.String)> -> _SOURCE_
+<android.content.ContentResolver: android.content.ContentProviderClient acquireContentProviderClient(android.net.Uri)> -> _SOURCE_
+<android.content.ContentResolver: android.content.ContentProviderClient acquireUnstableContentProviderClient(java.lang.String)> -> _SOURCE_
+<android.content.ContentResolver: android.content.ContentProviderClient acquireUnstableContentProviderClient(android.net.Uri)> -> _SOURCE_
+<android.content.ContentProviderClient: void close()> -> _SINK_
+<android.content.ContentProviderClient: boolean release()> -> _SINK_
