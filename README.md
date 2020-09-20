@@ -1,3 +1,3 @@
 # DiehardDetector
 
-coming soon!
+appalive is the main part for DiehardDetector
