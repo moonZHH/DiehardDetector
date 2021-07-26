@@ -9,12 +9,12 @@ Many apps (diehard apps) employ approaches (diehard methods) to keep themselves 
 If you are interested about the details of DiehardDetect, please refer to our research paper:  
 
 @inproceedings {dieharddetector20,  
-title = {Demystifying diehard android apps},  
-author = {Zhou, Hao and Wang, Haoyu and Zhou, Yajin and Luo, Xiapu and Tang, Yutian and Xue, Lei and Wang, Ting},  
-booktitle = {2020 35th IEEE/ACM International Conference on Automated Software Engineering (ASE)},  
-pages = {187--198},  
-year = {2020},  
-organization = {IEEE}  
+title={Demystifying diehard android apps},  
+author={Zhou, Hao and Wang, Haoyu and Zhou, Yajin and Luo, Xiapu and Tang, Yutian and Xue, Lei and Wang, Ting},  
+booktitle={2020 35th IEEE/ACM International Conference on Automated Software Engineering (ASE)},  
+pages={187--198},  
+year={2020},  
+organization={IEEE}  
 }
 
 ## Use
