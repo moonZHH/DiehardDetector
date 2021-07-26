@@ -1,6 +1,10 @@
 # DiehardDetector: Detecting Diehard Android Apps
 
+## Abstract
+
 Many apps (diehard apps) employ approaches (diehard methods) to keep themselves alive or wake up themselves (or other apps). DiehardDetector is a static analysis tools for identifying diehard apps.
+
+## Publication
 
 If you are interested about the details of DiehardDetect, please refer to our research paper:  
 
@@ -13,7 +17,9 @@ year = {2020},
 organization = {IEEE}  
 }
 
+## Use
+
 To use DiehardDetector, please follow the steps:  
-　Step-1: Import the folders appalive and FlowDroid_new to Eclipse.  
-　Step-2: Adjust the configurations in Config.java.  
-　Step-3: Run Main.java to perform analysis.  
+-> Step-1: Import the folders appalive and FlowDroid_new to Eclipse.  
+-> Step-2: Adjust the configurations in Config.java.  
+-> Step-3: Run Main.java to perform analysis.  
